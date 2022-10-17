@@ -1,0 +1,52 @@
+
+.logo{
+ 
+
+ 
+  width: 1200px;
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin:center center 0;
+  
+}
+@keyframes logo {
+  0% {transform:translateY(0);}
+  100% { transform: translateY(0) rotateY(360deg);}
+
+}
+
+html{background: black;}
+
+
+@media (min-width:100px){
+  .logo{
+ 
+
+ 
+    width: 500px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transform-origin:center center 0;
+    
+  }
+  @keyframes logo {
+    0% {transform:translateY(0);}
+    100% { transform: translateY(0) rotateY(360deg);}
+  
+  }
+}
