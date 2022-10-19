@@ -6,6 +6,8 @@
   width: 1200px;
   display: block;
   margin: auto;
+  align-items: center;
+  justify-content: center;
 
 
   animation-name: logo;
@@ -22,3 +24,23 @@
 }
 
 html{background: black;}
+
+
+@media (max-width:700px){
+  .logo{
+ 
+
+ 
+    width: 100%;
+    padding: 0 0;
+    margin: 0;
+       /* bottom: 25%; */
+    outline:5px solid red;
+  
+  }
+  @keyframes logo {
+    0% {transform:translateY(0);}
+    100% { transform: translateY(0) rotateY(360deg);}
+  
+  }
+}
